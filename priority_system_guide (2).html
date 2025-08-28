@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become Her Priority - Complete System Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: #2d3748;
+            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            min-height: 100vh;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header .subtitle {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .navigation {
+            background: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .nav-menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-menu li a {
+            color: #4a5568;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-menu li a:hover,
+        .nav-menu li a.active {
+            background: #e53e3e;
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .main-content {
+            padding: 3rem 0;
+        }
+        
+        .module {
+            background: white;
+            margin-bottom: 3rem;
+            border-radius: 16px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            overflow: hidden;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.6s ease forwards;
+        }
+        
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .module-header {
+            background: linear-gradient(135deg, #e53e3e 0%, #c53030 100%);
+            color: white;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .module-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            transform: translate(30px, -30px);
+        }
+        
+        .module-number {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+        
+        .module-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        
+        .module-description {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .module-content {
+            padding: 2.5rem;
+        }
+        
+        .section {
+            margin-bottom: 2.5rem;
+        }
+        
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 1rem;
+            border-left: 4px solid #e53e3e;
+            padding-left: 1rem;
+        }
+        
+        .insight-box {
+            background: linear-gradient(135deg, #fed7d7 0%, #feb2b2 100%);
+            border: 2px solid #e53e3e;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            position: relative;
+        }
+        
+        .insight-icon {
+            position: absolute;
+            top: -15px;
+            left: 20px;
+            background: #e53e3e;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+        .technique-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .technique-card {
+            background: #f7fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .technique-card:hover {
+            border-color: #e53e3e;
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .technique-number {
+            background: #e53e3e;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        
+        .technique-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+        
+        .technique-description {
+            color: #4a5568;
+            font-size: 1rem;
+        }
+        
+        .example-box {
+            background: #f0fff4;
+            border: 2px solid #68d391;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        
+        .example-title {
+            color: #22543d;
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .template-box {
+            background: #fffaf0;
+            border: 2px solid #f6ad55;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        
+        .template-title {
+            color: #c05621;
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .warning-box {
+            background: #fff5f5;
+            border: 2px solid #fc8181;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        
+        .warning-title {
+            color: #c53030;
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .checklist {
+            background: white;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .checklist-item {
+            display: flex;
+            align-items: center;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #e2e8f0;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .checklist-item:hover {
+            background: #f7fafc;
+        }
+        
+        .checklist-item:last-child {
+            border-bottom: none;
+        }
+        
+        .checkbox {
+            width: 20px;
+            height: 20px;
+            border: 2px solid #e2e8f0;
+            border-radius: 4px;
+            margin-right: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        
+        .checklist-item.completed .checkbox {
+            background: #e53e3e;
+            border-color: #e53e3e;
+        }
+        
+        .checklist-item.completed .checkbox::after {
+            content: '✓';
+            color: white;
+            font-weight: bold;
+        }
+        
+        .checklist-item.completed .checklist-text {
+            text-decoration: line-through;
+            opacity: 0.7;
+        }
+        
+        .progress-bar {
+            background: #e2e8f0;
+            border-radius: 10px;
+            height: 10px;
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            background: linear-gradient(90deg, #e53e3e, #c53030);
+            height: 100%;
+            width: 0;
+            transition: width 0.3s ease;
+        }
+        
+        .interactive-scenario {
+            background: white;
+            border: 3px solid #e53e3e;
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .scenario-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #e53e3e;
+            margin-bottom: 1rem;
+        }
+        
+        .choice-buttons {
+            display: flex;
+            gap: 1rem;
+            margin: 1rem 0;
+            flex-wrap: wrap;
+        }
+        
+        .choice-btn {
+            background: #e53e3e;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .choice-btn:hover {
+            background: #c53030;
+            transform: translateY(-2px);
+        }
+        
+        .result {
+            background: #f0fff4;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+            display: none;
+        }
+        
+        .bonus-content {
+            background: linear-gradient(135deg, #f7fafc 0%, #e6fffa 100%);
+            border: 2px solid #4fd1c7;
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .bonus-title {
+            color: #234e52;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        
+        .footer {
+            background: #2d3748;
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            margin-top: 4rem;
+        }
+        
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .support-info {
+            background: rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1rem;
+            }
+            
+            .header {
+                padding: 1.5rem 0;
+            }
+            
+            .header h1 {
+                font-size: 2.2rem;
+                line-height: 1.2;
+            }
+            
+            .header .subtitle {
+                font-size: 1.1rem;
+                padding: 0 1rem;
+            }
+            
+            .navigation {
+                padding: 0.75rem 0;
+            }
+            
+            .nav-menu {
+                gap: 0.5rem;
+                padding: 0 0.5rem;
+            }
+            
+            .nav-menu li a {
+                font-size: 0.9rem;
+                padding: 0.4rem 0.8rem;
+            }
+            
+            .main-content {
+                padding: 2rem 0;
+            }
+            
+            .module {
+                margin-bottom: 2rem;
+                border-radius: 12px;
+            }
+            
+            .module-header {
+                padding: 1.5rem;
+            }
+            
+            .module-number {
+                width: 50px;
+                height: 50px;
+                font-size: 1.3rem;
+                margin-bottom: 0.75rem;
+            }
+            
+            .module-title {
+                font-size: 1.8rem;
+                line-height: 1.2;
+            }
+            
+            .module-description {
+                font-size: 1rem;
+            }
+            
+            .module-content {
+                padding: 1.5rem;
+            }
+            
+            .section {
+                margin-bottom: 2rem;
+            }
+            
+            .section-title {
+                font-size: 1.5rem;
+                margin-bottom: 0.75rem;
+            }
+            
+            .technique-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            
+            .technique-card {
+                padding: 1.25rem;
+            }
+            
+            .technique-number {
+                width: 25px;
+                height: 25px;
+                font-size: 0.9rem;
+                margin-bottom: 0.75rem;
+            }
+            
+            .technique-title {
+                font-size: 1.1rem;
+                margin-bottom: 0.4rem;
+            }
+            
+            .technique-description {
+                font-size: 0.95rem;
+            }
+            
+            .insight-box,
+            .example-box,
+            .template-box,
+            .warning-box {
+                padding: 1.25rem;
+                margin: 1.25rem 0;
+            }
+            
+            .insight-icon {
+                width: 25px;
+                height: 25px;
+                top: -12px;
+                left: 15px;
+                font-size: 0.8rem;
+            }
+            
+            .checklist {
+                padding: 1.5rem;
+            }
+            
+            .checklist-item {
+                padding: 0.6rem 0;
+                flex-wrap: wrap;
+            }
+            
+            .checkbox {
+                width: 18px;
+                height: 18px;
+                margin-right: 0.75rem;
+                flex-shrink: 0;
+            }
+            
+            .checklist-text {
+                font-size: 0.95rem;
+                line-height: 1.4;
+            }
+            
+            .interactive-scenario {
+                padding: 1.5rem;
+            }
+            
+            .scenario-title {
+                font-size: 1.3rem;
+                margin-bottom: 0.75rem;
+            }
+            
+            .choice-buttons {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+            
+            .choice-btn {
+                padding: 0.75rem 1.25rem;
+                font-size: 0.95rem;
+                text-align: left;
+            }
+            
+            .result {
+                font-size: 0.95rem;
+                padding: 1rem;
+            }
+            
+            .bonus-content {
+                padding: 1.5rem;
+            }
+            
+            .bonus-title {
+                font-size: 1.3rem;
+                margin-bottom: 0.75rem;
+            }
+            
+            .footer {
+                padding: 2rem 0;
+            }
+            
+            .footer-content h3 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
+            
+            .footer-content p {
+                font-size: 0.95rem;
+            }
+            
+            .support-info {
+                padding: 1.5rem;
+                margin-top: 1.5rem;
+            }
+            
+            .support-info h4 {
+                font-size: 1.2rem;
+            }
+            
+            /* Touch-friendly improvements */
+            .checklist-item,
+            .technique-card,
+            .choice-btn {
+                min-height: 44px;
+                touch-action: manipulation;
+            }
+            
+            /* Improved text readability on mobile */
+            body {
+                font-size: 16px;
+                line-height: 1.6;
+            }
+            
+            p, li {
+                font-size: 1rem;
+                line-height: 1.6;
+            }
+            
+            /* Better spacing for mobile */
+            .template-box p,
+            .example-box p,
+            .warning-box p {
+                margin-bottom: 0.75rem;
+            }
+            
+            .template-box p:last-child,
+            .example-box p:last-child,
+            .warning-box p:last-child {
+                margin-bottom: 0;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 1.9rem;
+            }
+            
+            .nav-menu {
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5rem;
+            }
+            
+            .nav-menu li a {
+                display: block;
+                text-align: center;
+                min-width: 120px;
+            }
+            
+            .module-title {
+                font-size: 1.6rem;
+            }
+            
+            .section-title {
+                font-size: 1.3rem;
+            }
+            
+            .technique-card,
+            .insight-box,
+            .example-box,
+            .template-box,
+            .warning-box,
+            .bonus-content,
+            .checklist,
+            .interactive-scenario {
+                padding: 1rem;
+            }
+            
+            .choice-btn {
+                font-size: 0.9rem;
+                padding: 0.7rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Become Her Priority</h1>
+            <p class="subtitle">The Complete System to Stop Being Her Backup Plan</p>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="#module1" class="nav-link">Priority Psychology</a></li>
+                <li><a href="#module2" class="nav-link">High-Value Positioning</a></li>
+                <li><a href="#module3" class="nav-link">Scarcity & Demand</a></li>
+                <li><a href="#module4" class="nav-link">Irresistible Energy</a></li>
+                <li><a href="#bonus" class="nav-link">Bonus Content</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            
+            <!-- Module 1: Priority Psychology Masterclass -->
+            <section class="module" id="module1">
+                <div class="module-header">
+                    <div class="module-number">1</div>
+                    <h2 class="module-title">Priority Psychology Masterclass</h2>
+                    <p class="module-description">Understanding the female mind: Why she makes time for some men instantly</p>
+                </div>
+                <div class="module-content">
+                    
+                    <div class="section">
+                        <h3 class="section-title">The Priority Hierarchy in Her Mind</h3>
+                        <p>Every woman has an invisible ranking system in her mind. Understanding this system is the key to moving from "backup option" to "top priority."</p>
+                        
+                        <div class="insight-box">
+                            <div class="insight-icon">💡</div>
+                            <strong>Key Insight:</strong> Women don't make time based on how much they like you. They make time based on how much TENSION and UNCERTAINTY you create.
+                        </div>
+                        
+                        <div class="technique-grid">
+                            <div class="technique-card">
+                                <div class="technique-number">1</div>
+                                <div class="technique-title">The Scarcity Principle</div>
+                                <div class="technique-description">The less available you are, the more she thinks about you. Most men do the opposite - they become MORE available when interested.</div>
+                            </div>
+                            
+                            <div class="technique-card">
+                                <div class="technique-number">2</div>
+                                <div class="technique-title">Emotional Investment Theory</div>
+                                <div class="technique-description">She prioritizes men who make her WORK for attention. Easy validation gets ignored; earned validation gets obsessed over.</div>
+                            </div>
+                            
+                            <div class="technique-card">
+                                <div class="technique-number">3</div>
+                                <div class="technique-title">The Uncertainty Gap</div>
+                                <div class="technique-description">When she can't figure you out completely, her brain stays engaged. Predictable men get mentally filed away and forgotten.</div>
+                            </div>
+                        </div>
+                        
+                        <div class="example-box">
+                            <div class="example-title">Real Example:</div>
+                            <p><strong>Low Priority Response:</strong> "Hey beautiful, how was your day? I've been thinking about you all day."</p>
+                            <p><strong>High Priority Response:</strong> "That thing you said yesterday is still bothering me. We need to talk about it."</p>
+                            <p><em>Why it works:</em> Creates tension and makes her wonder what you're thinking. She can't dismiss it easily.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <h3 class="section-title">The "Busy" Decode System</h3>
+                        <p>Learn to read between the lines of her excuses and respond in ways that flip the script.</p>
+                        
+                        <div class="interactive-scenario">
+                            <div class="scenario-title">Scenario Practice: She says "I'm really busy this week"</div>
+                            <p>Choose your response:</p>
+                            <div class="choice-buttons">
+                                <button class="choice-btn" onclick="showResult('wrong1')">A) "No worries, maybe next week!"</button>
+                                <button class="choice-btn" onclick="showResult('wrong2')">B) "I understand, work comes first"</button>
+                                <button class="choice-btn" onclick="showResult('right')">C) "Cool. Hit me up when you figure out your priorities"</button>
+                            </div>
+                            <div class="result" id="wrong1">
+                                <strong>❌ Wrong Choice</strong><br>
+                                This response shows you accept being deprioritized. You're being too accommodating and showing that your time isn't valuable.
+                            </div>
+                            <div class="result" id="wrong2">
+                                <strong>❌ Wrong Choice</strong><br>
+                                You're validating her excuse and making it easy for her to keep you as a backup option. No tension created.
+                            </div>
+                            <div class="result" id="right">
+                                <strong>✅ Correct Choice</strong><br>
+                                This creates tension and shows you have standards. It forces her to either commit to spending time or lose you. Most women will suddenly "find time" after this response.
+                            </div>
+                        </div>
+                        
+                        <div class="warning-box">
+                            <div class="warning-title">⚠️ Critical Mistake to Avoid:</div>
+                            Never negotiate or bargain for her time. The moment you start offering alternatives or trying to "work around her schedule," you've lost all leverage.
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <h3 class="section-title">The Priority Shift Protocol</h3>
+                        <p>Step-by-step system to move from backup to priority in her mind.</p>
+                        
+                        <div class="checklist">
+                            <h4 style="margin-bottom: 1rem; color: #2d3748; font-size: 1.3rem;">Implementation Checklist:</h4>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Stop initiating contact first for 3 days minimum</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">When she does contact you, don't respond immediately (wait 2-4 hours)</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Stop complimenting her appearance - focus on her actions/choices instead</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">When making plans, offer only ONE option - never multiple choices</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">End conversations while they're going well - leave her wanting more</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Module 2: High-Value Positioning Blueprint -->
+            <section class="module" id="module2">
+                <div class="module-header">
+                    <div class="module-number">2</div>
+                    <h2 class="module-title">High-Value Positioning Blueprint</h2>
+                    <p class="module-description">How to position yourself as the rare option she can't ignore or replace</p>
+                </div>
+                <div class="module-content">
+                    
+                    <div class="section">
+                        <h3 class="section-title">The Rare Man Framework</h3>
+                        <p>Most men position themselves as "nice, available, and accommodating." This makes them common and replaceable. High-value men are selective, challenging, and unpredictable.</p>
+                        
+                        <div class="technique-grid">
+                            <div class="technique-card">
+                                <div class="technique-number">1</div>
+                                <div class="technique-title">Standards Above Availability</div>
+                                <div class="technique-description">Have clear standards for behavior and stick to them, even if it means walking away from attractive women.</div>
+                            </div>
+                            
+                            <div class="technique-card">
+                                <div class="technique-number">2</div>
+                                <div class="technique-title">The Challenge Dynamic</div>
+                                <div class="technique-description">Be the guy who pushes back, disagrees sometimes, and isn't afraid to call her out on her behavior.</div>
+                            </div>
+                            
+                            <div class="technique-card">
+                                <div class="technique-number">3</div>
+                                <div class="technique-title">Outcome Independence</div>
+                                <div class="technique-description">Genuinely not caring whether she chooses you or not. This confidence is magnetic and rare.</div>
+                            </div>
+                        </div>
+                        
+                        <div class="template-box">
+                            <div class="template-title">High-Value Response Templates:</div>
+                            <p><strong>When she cancels plans:</strong><br>
+                            "No problem. I'll make other plans. Let me know when you're more reliable." (Don't ask to reschedule)</p>
+                            
+                            <p><strong>When she's being flaky with texting:</strong><br>
+                            "Your communication style and mine don't match up. Take care." (Then stop responding until she improves)</p>
+                            
+                            <p><strong>When she tries to make you jealous:</strong><br>
+                            "That's cool. He seems like a good fit for you." (Shows you're not threatened and have other options)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <h3 class="section-title">The Selectivity Signal System</h3>
+                        <p>Show her that you have options and standards without being arrogant about it.</p>
+                        
+                        <div class="example-box">
+                            <div class="example-title">Subtle Selectivity Examples:</div>
+                            <p><strong>Instead of:</strong> "I'm free whenever you want to hang out"<br>
+                            <strong>Say:</strong> "I can do Tuesday at 7 or Thursday at 8. Pick one."</p>
+                            
+                            <p><strong>Instead of:</strong> "You're so beautiful"<br>
+                            <strong>Say:</strong> "I like how you think about things differently than most people"</p>
+                            
+                            <p><strong>Instead of:</strong> "Whatever you want to do is fine"<br>
+                            <strong>Say:</strong> "I know a place you'd probably like. We're going there."</p>
+                        </div>
+                        
+                        <div class="insight-box">
+                            <div class="insight-icon">🎯</div>
+                            <strong>The Secret:</strong> High-value men lead, decide, and choose. They don't ask permission or seek approval for their choices.
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <h3 class="section-title">Social Proof Amplification</h3>
+                        <p>Let her see that other women value your time and attention.</p>
+                        
+                        <div class="checklist">
+                            <h4 style="margin-bottom: 1rem; color: #2d3748; font-size: 1.3rem;">Social Proof Checklist:</h4>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Mention other women casually in conversation (not romantically)</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Don't always be immediately available when she wants to hang out</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Have a social life that doesn't revolve around her</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Post social activities on social media (group settings with mixed company)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Module 3: Scarcity & Demand Framework -->
+            <section class="module" id="module3">
+                <div class="module-header">
+                    <div class="module-number">3</div>
+                    <h2 class="module-title">Scarcity & Demand Framework</h2>
+                    <p class="module-description">Create urgency in her mind - make her afraid of losing you to other women</p>
+                </div>
+                <div class="module-content">
+                    
+                    <div class="section">
+                        <h3 class="section-title">The Scarcity Psychology</h3>
+                        <p>Women are wired to want what they can't have and value what they might lose. Use this psychology ethically to become more desirable.</p>
+                        
+                        <div class="insight-box">
+                            <div class="insight-icon">🧠</div>
+                            <strong>Psychological Principle:</strong> The fear of loss is 2.5x stronger than the desire for gain. When she thinks she might lose you, her interest skyrockets.
+                        </div>
+                        
+                        <div class="technique-grid">
+                            <div class="technique-card">
+                                <div class="technique-number">1</div>
+                                <div class="technique-title">Time Scarcity</div>
+                                <div class="technique-description">Your time becomes valuable when it's limited. Don't be endlessly available for texts, calls, or hangouts.</div>
+                            </div>
+                            
+                            <div class="technique-card">
+                                <div class="technique-number">2</div>
+                                <div class="technique-title">Attention Scarcity</div>
+                                <div class="technique-description">Give focused attention when you're together, but don't make her the center of your universe when apart.</div>
+                            </div>
+                            
+                            <div class="technique-card">
+                                <div class="technique-number">3</div>
+                                <div class="technique-title">Emotional Scarcity</div>
+                                <div class="technique-description">Don't wear your heart on your sleeve. Make her work to understand how you really feel.</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <h3 class="section-title">The Competition Activation System</h3>
+                        <p>Subtly let her know that other women are interested without being obvious about it.</p>
+                        
+                        <div class="template-box">
+                            <div class="template-title">Competition Templates (Use Sparingly):</div>
+                            <p><strong>Scenario 1 - Canceling plans:</strong><br>
+                            "No worries. Sarah from work has been asking me to check out that new place anyway."</p>
+                            
+                            <p><strong>Scenario 2 - She's being slow to respond:</strong><br>
+                            "I'm getting the sense you're not that interested. I'll give you some space."</p>
+                            
+                            <p><strong>Scenario 3 - She's playing games:</strong><br>
+                            "I don't really have time for games. There are too many straightforward women out there."</p>
+                        </div>
+                        
+                        <div class="warning-box">
+                            <div class="warning-title">⚠️ Use This Carefully:</div>
+                            Never make up fake women or be obvious about trying to make her jealous. The goal is to remind her that you have options, not to manipulate her emotions.
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <h3 class="section-title">The Withdrawal Strategy</h3>
+                        <p>When she takes you for granted, strategically withdraw your attention and energy.</p>
+                        
+                        <div class="interactive-scenario">
+                            <div class="scenario-title">Practice Scenario: She's been texting less and seems distant</div>
+                            <p>What's your move?</p>
+                            <div class="choice-buttons">
+                                <button class="choice-btn" onclick="showResult('wrong3')">A) Text more to get her attention</button>
+                                <button class="choice-btn" onclick="showResult('wrong4')">B) Ask if everything is okay</button>
+                                <button class="choice-btn" onclick="showResult('right2')">C) Match her energy and pull back</button>
+                            </div>
+                            <div class="result" id="wrong3">
+                                <strong>❌ Wrong Choice</strong><br>
+                                Chasing someone who's pulling away makes you look desperate and lowers your value. This pushes her away faster.
+                            </div>
+                            <div class="result" id="wrong4">
+                                <strong>❌ Wrong Choice</strong><br>
+                                This shows insecurity and neediness. You're essentially asking for reassurance, which is unattractive.
+                            </div>
+                            <div class="result" id="right2">
+                                <strong>✅ Correct Choice</strong><br>
+                                Matching her energy shows you're not desperate and have self-respect. This often causes her to wonder why you pulled back and re-engage.
+                            </div>
+                        </div>
+                        
+                        <div class="checklist">
+                            <h4 style="margin-bottom: 1rem; color: #2d3748; font-size: 1.3rem;">Withdrawal Protocol Steps:</h4>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Stop initiating all contact immediately</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Take longer to respond to her messages (mirror her response time)</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Make plans with other people and post about them</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Don't explain why you're being distant - let her wonder</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Wait for her to re-engage and ask what's wrong</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Module 4: Irresistible Energy Transformation -->
+            <section class="module" id="module4">
+                <div class="module-header">
+                    <div class="module-number">4</div>
+                    <h2 class="module-title">Irresistible Energy Transformation</h2>
+                    <p class="module-description">Develop the magnetic presence that makes women clear their schedules</p>
+                </div>
+                <div class="module-content">
+                    
+                    <div class="section">
+                        <h3 class="section-title">The Magnetic Mindset Shift</h3>
+                        <p>Your energy and mindset are more important than your words. Women can sense confidence, desperation, and neediness instantly.</p>
+                        
+                        <div class="technique-grid">
+                            <div class="technique-card">
+                                <div class="technique-number">1</div>
+                                <div class="technique-title">Abundant Thinking</div>
+                                <div class="technique-description">Believe that there are plenty of amazing women out there. This removes desperation and makes you more attractive.</div>
+                            </div>
+                            
+                            <div class="technique-card">
+                                <div class="technique-number">2</div>
+                                <div class="technique-title">Mission-Focused Energy</div>
+                                <div class="technique-description">Have goals and ambitions that are bigger than any woman. She should add to your life, not be your entire life.</div>
+                            </div>
+                            
+                            <div class="technique-card">
+                                <div class="technique-number">3</div>
+                                <div class="technique-title">Unshakeable Self-Worth</div>
+                                <div class="technique-description">Your value doesn't depend on her validation. You're already complete; she's just a potential addition.</div>
+                            </div>
+                        </div>
+                        
+                        <div class="insight-box">
+                            <div class="insight-icon">⚡</div>
+                            <strong>Energy Secret:</strong> Women are attracted to men who are going somewhere in life and might take them along for the ride, not men who make them the destination.
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <h3 class="section-title">Confidence Calibration System</h3>
+                        <p>Learn to project quiet confidence without arrogance or neediness.</p>
+                        
+                        <div class="example-box">
+                            <div class="example-title">Confidence vs. Arrogance vs. Neediness:</div>
+                            <p><strong>Needy:</strong> "Do you think I'm attractive? I really hope you like me."</p>
+                            <p><strong>Arrogant:</strong> "I'm the best thing that's ever happened to you."</p>
+                            <p><strong>Confident:</strong> "I think we could have some fun together. Let's see where this goes."</p>
+                        </div>
+                        
+                        <div class="template-box">
+                            <div class="template-title">Confident Communication Templates:</div>
+                            <p><strong>Setting boundaries:</strong><br>
+                            "I don't do last-minute plans. If you want to hang out, let me know at least a day ahead."</p>
+                            
+                            <p><strong>Expressing interest:</strong><br>
+                            "I enjoy spending time with you. We should do this more often."</p>
+                            
+                            <p><strong>Handling rejection:</strong><br>
+                            "No worries. I hope you find what you're looking for."</p>
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <h3 class="section-title">The Priority Action Plan</h3>
+                        <p>Daily practices that build the energy and mindset that makes women prioritize you.</p>
+                        
+                        <div class="checklist">
+                            <h4 style="margin-bottom: 1rem; color: #2d3748; font-size: 1.3rem;">Daily Priority Building Actions:</h4>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Work on a personal goal for at least 30 minutes</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Exercise or do some physical activity</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Practice saying "no" to at least one request</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Have at least one social interaction that doesn't involve her</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Do something that makes you feel proud of yourself</div>
+                            </div>
+                        </div>
+                        
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="dailyProgress"></div>
+                        </div>
+                        <p style="text-align: center; margin-top: 0.5rem; color: #4a5568;">Daily Progress: <span id="progressText">0%</span></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bonus Content -->
+            <section class="module" id="bonus">
+                <div class="module-header">
+                    <div class="module-number">🎁</div>
+                    <h2 class="module-title">Bonus Content</h2>
+                    <p class="module-description">Emergency Recovery Protocols & Advanced Techniques</p>
+                </div>
+                <div class="module-content">
+                    
+                    <div class="bonus-content">
+                        <div class="bonus-title">🔄 Reverse Psychology Playbook</div>
+                        <p>Advanced tactics to make her chase YOU when she's playing hard to get.</p>
+                        
+                        <div class="technique-grid">
+                            <div class="technique-card">
+                                <div class="technique-number">1</div>
+                                <div class="technique-title">The Takeaway</div>
+                                <div class="technique-description">"I'm getting the sense this isn't working out. Maybe we should just be friends."</div>
+                            </div>
+                            
+                            <div class="technique-card">
+                                <div class="technique-number">2</div>
+                                <div class="technique-title">The Redirect</div>
+                                <div class="technique-description">When she's distant: "Cool, I'll focus my attention elsewhere. Take care."</div>
+                            </div>
+                            
+                            <div class="technique-card">
+                                <div class="technique-number">3</div>
+                                <div class="technique-title">The Challenge</div>
+                                <div class="technique-description">"You're going to have to do better than that if you want my attention."</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bonus-content">
+                        <div class="bonus-title">📱 Text Templates That Work</div>
+                        <p>Word-for-word messages that create instant curiosity and urgency.</p>
+                        
+                        <div class="template-box">
+                            <div class="template-title">High-Priority Text Templates:</div>
+                            <p><strong>Re-engagement after silence:</strong><br>
+                            "Something reminded me why we stopped talking. Probably for the best."</p>
+                            
+                            <p><strong>When she's being flaky:</strong><br>
+                            "Your loss. I'm done chasing." (Then don't contact her again)</p>
+                            
+                            <p><strong>Creating curiosity:</strong><br>
+                            "Just realized something about you that changes everything."</p>
+                            
+                            <p><strong>Setting a date confidently:</strong><br>
+                            "Free Thursday at 7? I know a place you'll love."</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bonus-content">
+                        <div class="bonus-title">🎯 Social Media Mastery</div>
+                        <p>How to use Instagram and social platforms to demonstrate your high-value lifestyle subtly.</p>
+                        
+                        <div class="checklist">
+                            <h4 style="margin-bottom: 1rem; color: #2d3748; font-size: 1.3rem;">Social Proof Posting Strategy:</h4>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Post group activities (mixed gender groups work best)</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Show your hobbies and interests (not just gym selfies)</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Occasionally post adventures and travels</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Don't post about her or your relationship status</div>
+                            </div>
+                            <div class="checklist-item" onclick="toggleCheck(this)">
+                                <div class="checkbox"></div>
+                                <div class="checklist-text">Keep some mystery - don't document everything</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="warning-box">
+                        <div class="warning-title">🚨 Emergency Recovery Protocols</div>
+                        <p><strong>When you've been too needy and want to recover:</strong></p>
+                        <ol style="margin-left: 1.5rem; color: #4a5568;">
+                            <li>Stop all contact immediately for at least 7 days</li>
+                            <li>Post social activities without mentioning her</li>
+                            <li>When you re-engage, act like nothing happened</li>
+                            <li>Don't apologize or explain your previous behavior</li>
+                            <li>Be more selective and challenging going forward</li>
+                        </ol>
+                        
+                        <p style="margin-top: 1rem;"><strong>Recovery Text After No Contact:</strong><br>
+                        "Been thinking. We should grab drinks this week." (Simple, confident, no reference to past neediness)</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Implementation Guide -->
+            <section class="module">
+                <div class="module-header">
+                    <div class="module-number">🎯</div>
+                    <h2 class="module-title">30-Day Implementation Plan</h2>
+                    <p class="module-description">Your step-by-step roadmap to becoming her priority</p>
+                </div>
+                <div class="module-content">
+                    
+                    <div class="technique-grid">
+                        <div class="technique-card">
+                            <div class="technique-number">Week 1</div>
+                            <div class="technique-title">Foundation Building</div>
+                            <div class="technique-description">Focus on mindset shifts and stopping needy behaviors. Practice the withdrawal strategy if needed.</div>
+                        </div>
+                        
+                        <div class="technique-card">
+                            <div class="technique-number">Week 2</div>
+                            <div class="technique-title">Value Demonstration</div>
+                            <div class="technique-description">Start showing your standards and selectivity. Practice confident communication templates.</div>
+                        </div>
+                        
+                        <div class="technique-card">
+                            <div class="technique-number">Week 3</div>
+                            <div class="technique-title">Scarcity Activation</div>
+                            <div class="technique-description">Implement time and attention scarcity. Let her see you have other options and priorities.</div>
+                        </div>
+                        
+                        <div class="technique-card">
+                            <div class="technique-number">Week 4</div>
+                            <div class="technique-title">Priority Maintenance</div>
+                            <div class="technique-description">Maintain your new position through consistent high-value behavior and clear boundaries.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="insight-box">
+                        <div class="insight-icon">📈</div>
+                        <strong>Success Metrics:</strong> You'll know it's working when she starts initiating contact more, becomes more available for your plans, and asks what you're up to instead of telling you she's busy.
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Remember: You Are The Prize</h3>
+                <p>The goal isn't to manipulate or trick women. It's to become the kind of man that naturally attracts high-quality women who want to prioritize you.</p>
+                
+                <div class="support-info">
+                    <h4>Questions or Need Support?</h4>
+                    <p>If you have questions about implementing these strategies or need clarification on any concepts, remember that confidence comes from practice and consistency.</p>
+                    <p style="margin-top: 1rem;"><em>"Busy people make time. Uninterested people make excuses. Now you know the difference."</em></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                // Update active nav item
+                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Smooth scroll
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+        
+        // Checklist functionality
+        function toggleCheck(item) {
+            item.classList.toggle('completed');
+            updateProgress();
+        }
+        
+        function updateProgress() {
+            const totalItems = document.querySelectorAll('#module4 .checklist-item').length;
+            const completedItems = document.querySelectorAll('#module4 .checklist-item.completed').length;
+            const percentage = Math.round((completedItems / totalItems) * 100);
+            
+            document.getElementById('dailyProgress').style.width = percentage + '%';
+            document.getElementById('progressText').textContent = percentage + '%';
+        }
+        
+        // Interactive scenario results
+        function showResult(resultId) {
+            // Hide all results first
+            document.querySelectorAll('.result').forEach(result => {
+                result.style.display = 'none';
+            });
+            
+            // Show selected result
+            document.getElementById(resultId).style.display = 'block';
+        }
+        
+        // Animate modules on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+        
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animationDelay = '0s';
+                    entry.target.style.animationPlayState = 'running';
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.module').forEach(module => {
+            observer.observe(module);
+        });
+        
+        // Update navigation on scroll
+        window.addEventListener('scroll', function() {
+            const modules = document.querySelectorAll('.module');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            let current = '';
+            modules.forEach(module => {
+                const rect = module.getBoundingClientRect();
+                if (rect.top <= 100) {
+                    current = module.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
